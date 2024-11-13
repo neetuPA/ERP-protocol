@@ -1,7 +1,11 @@
-// import React from 'react'
+import React from 'react'
 import { DashboardBox } from './Dashboard/dashboardBox'
 import { Link } from 'react-router-dom'
-
+import { IoIosContact } from "react-icons/io";
+import { IoBagHandleOutline } from "react-icons/io5";
+import { MdOutlineProductionQuantityLimits } from "react-icons/md";
+// import { MdOutlineReviews } from "react-icons/md";
+import { GiStarsStack } from "react-icons/gi";
 export const Dashboard = () => {
   // const pathname=usePathname()
 const navLinks=[
@@ -39,10 +43,10 @@ return(
     <div className='row dashboardBoxWrapperRow'>
       <div className='col-md-8'>
       <div className='dashboardBoxWrapper d-flex'>
-<DashboardBox color={["#0af60d","#0be8ba"]}/>
-<DashboardBox color={["#85bbf6","#5793a4"]} />
-<DashboardBox color={["#e9d03a","#27943f"]}/>
-<DashboardBox color={["#e4561e","#3b660b"]}/>
+<DashboardBox color={["#85bbf6","#5793a4"]} icon={<IoIosContact/>} />
+<DashboardBox color={["#0af60d","#0be8ba"]} icon={<IoBagHandleOutline/>}/>
+<DashboardBox color={["#e9d03a","#27943f"]} icon={< MdOutlineProductionQuantityLimits/>}/>
+<DashboardBox color={["#e4561e","#3b660b"]} icon={<GiStarsStack/>}/>
 
       </div>
 

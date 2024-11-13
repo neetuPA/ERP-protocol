@@ -14,7 +14,9 @@ export const DashboardBox=(props)=>{
 
             </h4>
             <span className="text-white">277</span>
-            <div></div>
+            <div>
+                <h6 className="text-white pt-12">Last Month</h6>
+            </div>
 
         </div>
     </div>
