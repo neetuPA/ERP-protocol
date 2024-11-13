@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body{
-    background: #fff;
+    background: #eeebeb;
 }
 .main  .sidebarWrapper{height: 100vh;}
-.main   .sidebarWrapper .sidebar{height: 100vh; background: #fff;border-right: 1px solid rgba(0,0,0,0.3);}
+.main   .sidebarWrapper .sidebar{height: 100vh; background: #e2dcdc;border-right: 1px solid rgba(0,0,0,0.3);}
 
 .main .sidebarWrapper .sidebar .sidebarTabs button{justify-content: flex-start !important; color:#222222; text-transform:capitalize; font-weight: 600;font-size: 14px; padding: 4px 10px!important; }
 .main .sidebarWrapper .sidebar .sidebarTabs button svg{font-size: 20px;}
@@ -80,3 +80,4 @@ body.dark .cardFilters .col-md-3 h4{color:rgba(255,255,255,0.8);}
 .dashboardBoxWrapper .dashboardBox{width:48%;height:200px;border-radius:10px;overflow:hidden;padding:20px;display:flex;flex-direction:column;justify-content:space-around;text-align:left !important;position:relative;color:#fff;text-transform:capitalize !important ;background: rgb(224, 221, 221);
 }
 .dashboardBoxWrapperRow .box{width:100%; height:100%;background: #7a7a7a;border-radius: 10px;}
+.logoutWrapper{ width:100%;padding:25px;height:100px;background:#bcd2fd ;}

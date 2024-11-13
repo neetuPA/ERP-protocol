@@ -1,6 +1,5 @@
 import { createContext, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 import { Routes,Route } from 'react-router-dom'
 
@@ -8,6 +7,7 @@ import { SideBar } from './component/Sidebar'
 
 import { Header } from './component/Header'
 import { Dashboard } from './pages'
+// import {HR} from './component/Sidebar/hr'
 
 
 
@@ -21,8 +21,9 @@ function App() {
 
   return (
      <>
+     {/* <Login/> */}
       <h1 className='text-cnenter font bold'>Welcome</h1>
-
+  
      
       <section className='main flex '>
     <div className='sidebarWrapper w-[15%]'>
@@ -30,12 +31,12 @@ function App() {
     </div>
     <div className='content_Right w-[85%] px-3'>
       <Header/>
-      <Dashboard/>
+      
       <div className='space'></div>
      
     <Routes>
-{/* <Route path="/" element={<Login/>}/> */}
-  {/* <Route path='/Register' element={<Register/>}/> */}
+<Route path='/' element={<Dashboard/>}/>
+{/* <Route path='/' element={<Hr/>}/> */}
     
 {/* </Route> */}
 </Routes>

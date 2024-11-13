@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import logo from '../../assets/download.png'
+// import logo from '../../assets/download.png'
 import { Link } from 'react-router-dom'
 import Button from '@mui/material/Button';
-import { IoIosSettings } from "react-icons/io";
 // import { CiSettings } from "react-icons/ci";
 import { FaPersonCircleExclamation } from "react-icons/fa6";
 import { MdDashboardCustomize } from "react-icons/md";
@@ -84,7 +83,7 @@ export const SideBar = () => {
     <li>
       <Link to =''>
 
-    <Button className={`w-100${activeTab==6? 'active':''}`} onClick={() =>isOpenSubmenu(6)}><span className='icon mr-3 w-[25px] h-[25px] flex items-center justify-center rounded-md'><IoIosSettings /></span> Setting</Button>
+    <Button className={`w-100${activeTab==6? 'active':''}`} onClick={() =>isOpenSubmenu(6)}><span className='icon mr-3 w-[25px] h-[25px] flex items-center justify-center rounded-md'>< GrLogout /></span> Setting</Button>
     </Link></li>
     
   </ul>
@@ -92,13 +91,7 @@ export const SideBar = () => {
 <br/>
 
 
-<div className='logoutWrapper'>
-  <Link to='/logout'>
-  <Button className='w-100'><GrLogout />Logout</Button>
-
-  
-  </Link>
-</div>
+<div className='logoutWrapper'></div>
 
 
 

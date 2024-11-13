@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-
+// import { Link } from "react-router-dom"
 export const DashboardBox=(props)=>{
 
     return(
@@ -7,7 +7,7 @@ export const DashboardBox=(props)=>{
 <div className='dashboardBox' style={{
     background: `linear-gradient(90deg, ${props.color?.[0]} 0%, ${props.color?.[1]} 100%)`
 }}>
-    
+   
     <div className='d-flex w-100'>
         <div className="col1">
             <h4 className='text-white'>Total Employee
@@ -18,7 +18,7 @@ export const DashboardBox=(props)=>{
 
         </div>
     </div>
-    
+  
      </div>
 </>
     )

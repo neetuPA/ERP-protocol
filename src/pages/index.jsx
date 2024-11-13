@@ -1,5 +1,5 @@
 import React from 'react'
-import { DashboardBox } from './Dashboard/dashboardBox'
+import { DashboardBox } from './Dashboard/DashboardBox'
 import { Link } from 'react-router-dom'
 
 export const Dashboard = () => {
